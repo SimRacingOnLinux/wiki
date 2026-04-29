@@ -3,7 +3,10 @@ let
   pythonEnv = import ../lib/python-env.nix { inherit pkgs inputs; };
 in
 pkgs.mkShell {
-  packages = [ pythonEnv pkgs.uv ];
+  packages = [
+    pythonEnv
+    pkgs.uv
+  ];
 
   shellHook = ''
     echo "MkDocs environment ready."
