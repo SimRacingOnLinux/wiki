@@ -1,0 +1,7 @@
+site_name: Sim Racing on Linux Wiki
+site_url: https://USERNAME.github.io/srol-wiki/
+theme:
+  name: shadcn
+plugins:
+  - search
+  - awesome-nav
