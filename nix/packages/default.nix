@@ -1,11 +1,6 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 let
-  mkdocsShadcn = import ../lib/mkdocs-shadcn.nix { inherit pkgs; };
-  pythonEnv = pkgs.python3.withPackages (ps: [
-    ps.mkdocs
-    ps.mkdocs-awesome-nav
-    mkdocsShadcn
-  ]);
+  pythonEnv = import ../lib/python-env.nix { inherit pkgs inputs; };
 in
 pkgs.stdenvNoCC.mkDerivation {
   pname = "srol-wiki-site";

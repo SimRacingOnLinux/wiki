@@ -4,23 +4,19 @@ This site is built with [MkDocs](https://www.mkdocs.org/) and published via GitH
 
 ## Local development
 
-Install the dependency:
+Dependencies are managed with [uv](https://docs.astral.sh/uv/). Install it, then run:
 
 ```bash
-python -m pip install -r requirements.txt
+uv run mkdocs serve
 ```
 
-Run the local dev server:
+To build the static site:
 
 ```bash
-mkdocs serve
+uv run mkdocs build
 ```
 
-Build the static site:
-
-```bash
-mkdocs build
-```
+To add or update dependencies, edit `pyproject.toml` then run `uv lock`.
 
 ## Nix
 
