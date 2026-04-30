@@ -1,5 +1,5 @@
 site_name: Sim Racing on Linux Wiki
-site_url: https://simracingonlinux.github.io/wiki/
+site_url: https://wiki.simracingonlinux.com
 theme:
   name: shadcn
 markdown_extensions:
