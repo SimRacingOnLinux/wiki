@@ -1,3 +1,6 @@
+---
+title: BeamNG.Drive
+---
 # BeamNG.Drive
 BeamNG.Drive ships with a native Linux build.  
 
