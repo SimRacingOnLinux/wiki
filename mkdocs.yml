@@ -8,3 +8,5 @@ markdown_extensions:
 plugins:
   - search
   - awesome-nav
+extra_css:
+  - extra.css

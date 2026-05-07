@@ -1,0 +1,9 @@
+article input[type=button].ghost, article a.button.ghost, article button.ghost {
+  right: -1.5rem;
+}
+
+@media (min-width: 48rem) {
+  article input[type=button].ghost, article a.button.ghost, article button.ghost {
+    right: -2rem;
+  }
+}
