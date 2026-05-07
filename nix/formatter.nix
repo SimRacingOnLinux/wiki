@@ -5,6 +5,7 @@ pkgs.writeShellApplication {
     pkgs.treefmt
     pkgs.prettier
     pkgs.nixfmt
+    pkgs.markdownlint-cli
   ];
   text = ''
     exec treefmt "$@"

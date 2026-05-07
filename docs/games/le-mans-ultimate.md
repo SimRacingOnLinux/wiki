@@ -1,7 +1,3 @@
----
-title: Le Mans Ultimate
----
-
 # Le Mans Ultimate
 
 Le Mans Ultimate is an endurance racing simulator developed by Studio 397, based on the rFactor 2 engine.

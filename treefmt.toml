@@ -1,7 +1,12 @@
 [formatter.prettier]
 command = "prettier"
 options = ["--write"]
-includes = ["*.md", "*.yaml", "*.yml"]
+includes = ["*.yaml", "*.yml"]
+
+[formatter.markdownlint]
+command = "markdownlint"
+options = ["--fix", "--config", ".markdownlint.json"]
+includes = ["*.md"]
 
 [formatter.nixfmt]
 command = "nixfmt"
