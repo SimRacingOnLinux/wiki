@@ -7,6 +7,7 @@ dependencies = [
   "mkdocs-awesome-nav>=3.0,<4.0",
   "mkdocs-shadcn>=0.10,<1.0",
   "pygments>=2.20.0",
+  "pymdown-extensions>=10.21.2",
 ]
 
 [tool.uv]
