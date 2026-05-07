@@ -543,6 +543,7 @@ dependencies = [
     { name = "mkdocs-awesome-nav" },
     { name = "mkdocs-shadcn" },
     { name = "pygments" },
+    { name = "pymdown-extensions" },
 ]
 
 [package.metadata]
@@ -551,6 +552,7 @@ requires-dist = [
     { name = "mkdocs-awesome-nav", specifier = ">=3.0,<4.0" },
     { name = "mkdocs-shadcn", specifier = ">=0.10,<1.0" },
     { name = "pygments", specifier = ">=2.20.0" },
+    { name = "pymdown-extensions", specifier = ">=10.21.2" },
 ]
 
 [[package]]
