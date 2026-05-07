@@ -1,8 +1,10 @@
 ---
 title: BeamNG.Drive
 ---
+
 # BeamNG.Drive
-BeamNG.Drive ships with a native Linux build.  
+
+BeamNG.Drive ships with a native Linux build.
 
 ## BeamMP
 The BeamMP launcher supports Linux but they don't release precomplied Linux binaries.  
