@@ -5,6 +5,10 @@ theme:
 markdown_extensions:
   - admonition
   - codehilite
+  - fenced_code
+  - pymdownx.highlight:
+      css_class: codehilite
+  - pymdownx.superfences
 plugins:
   - search
   - awesome-nav
